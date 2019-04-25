@@ -1,0 +1,297 @@
+body {
+    padding:15px;    
+    background:#ffffff;
+}
+
+.jumbotron {
+    /*padding-left: 30px;    */
+   margin-bottom: 10px;
+}
+
+.nohover:hover {
+    cursor:default;
+}
+
+.questionsContainerParent,
+   .resourcesContainerParent,
+   .quizScoreContainerParent  {
+    padding-left: 30px;
+    padding-right: 30px;    
+}
+
+.buttonsContainer {
+    padding-right: 15px;
+    clear: both;    
+}
+
+.floatRightBtn {
+    float: right;
+    margin-left: 10px;       
+}
+
+.questionsContainer {
+    clear: both;
+}
+
+.resourcesContainer {
+    
+}
+
+.scoreContainer {
+    
+}
+
+.questionContainer {
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.answersContainer {
+   margin:auto;
+   
+}
+
+.answerContainer {
+    margin-left: 30px;
+    border: 1px solid #00b300;
+    padding: 10px; 
+    padding-left: 20px;  
+}
+
+.btn-answer {
+    background-color: #D3D3D3;        
+}
+
+.btn-answer:hover:enabled {
+   background-color: #286090;
+   border-color: #204d74;
+   color: #fff;
+    
+}
+
+.btn-answer.active {
+   background-color: #286090;
+   border-color: #204d74;
+   color: #fff;
+    
+}
+
+.resourcesContainerParent {
+    display: none;
+}
+
+.hidden {
+    display: none;    
+}
+
+.modal {
+    display: none;    
+}
+
+.modaal-container {
+ padding: 1rem;        
+}
+
+.modal-bottom {
+    margin: 1rem;
+    text-align: center;
+}
+
+/*.radio-group label:not(.disabled):hover, .radio-group label:not(.disabled):focus,
+    .checkbox-group label:not(.disabled):hover, .checkbox-group label:not(.disabled):focus {
+  background-color: #C7C8CA;
+}*/
+
+.radio-group label.disabled, .radio-group label.disabled,
+    .checkbox-group label.disabled, .checkbox-group label.disabled  {
+  opacity: 0.5;  
+}
+
+.radio-group label.disabled:hover, .radio-group label.disabled:hover,
+     .checkbox-group label.disabled:hover, .checkbox-group label.disabled:hover,{
+  cursor: default;
+}
+
+
+
+.questionGroupContainer {
+    /*border: 1px dotted;*/
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.questionGroupLabel {
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 10px;    
+}
+
+.answerFeedback {
+    display: none;
+}
+
+.questionGroupScoreContainerParent {
+    display: none;
+}
+
+.quizButtonsContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;    
+}
+
+.questionContainerTools {
+    border: 1px solid #3DA1D2;
+    margin-bottom: 20px;
+    padding: 5px;   
+}
+
+.answersContainerTools {
+    border: 1px solid #FF0000;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+div#loader {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      /*height: 100%;*/
+      border: 1px solid #CCCCCC;
+      background-color: #EEEEEE;
+      opacity: 0.6;
+      filter: alpha(opacity = 60);
+      z-index: 200;
+      /*background: url(../images/loader.gif) no-repeat center center;*/   
+}
+
+div#loaderImageContainer {
+    width: 100%;
+    height: 100%;
+    background: url(../images/loading.gif) no-repeat center center;
+}
+
+.answerPointsAttemptsContainerTools {
+    border: 1px solid #663300;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.answerAttemptTools {
+    border: 1px solid #6600ff;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.imagesContainerTools {
+    margin-left: 30px;
+    border: 1px solid #339933;
+    padding: 10px; 
+    padding-left: 20px;  
+    /*background: #339933;      */
+}
+
+/*.imageContainerTools {
+    margin-left: 30px;
+    border: 1px solid #ffff00;
+    padding: 10px; 
+    padding-left: 20px;        
+}*/
+
+.videosContainerTools {
+    margin-left: 30px;
+    border: 1px solid #9900cc;
+    padding: 10px; 
+    padding-left: 20px; 
+    /*background: #9900cc;       */
+}
+
+/*.videoContainerTools {
+    margin-left: 30px;
+    border: 1px solid #33cccc;
+    padding: 10px; 
+    padding-left: 20px;        
+}*/
+
+/*.audiosContainerTools {
+    margin-left: 30px;
+    border: 1px solid #3366cc;
+    padding: 10px; 
+    padding-left: 20px;        
+}*/
+
+.audioContainerTools {
+    margin-left: 30px;
+    border: 1px solid #cc3300;
+    padding: 10px; 
+    padding-left: 20px; 
+/*    background: #cc3300;       
+*/}
+
+.button.disabled {
+      pointer-events: none;
+  opacity: .6;
+}    
+
+.modaal-wrapper .modaal-close {
+    background: #0f6da8; 
+}
+
+.modaal-wrapper .close {
+    background: transparent;    
+}
+
+.questionFeedbackIncorrectTools{
+  display:none;
+}
+
+#passPercentageTools {
+    margin: 9px;
+    padding: 4px;
+    width: 50px;
+}
+
+.checkboxGroupShowScore {
+    border-bottom: 1px solid #999999;
+}
+
+.checkboxGroupUseGradebook, .checkboxGroupSendScoreToGradebook, .checkboxGroupUsePassPercentage {
+    border-bottom: 1px solid #999999;
+}
+
+.checkboxGroupUseGradebook label, .checkboxGroupSendScoreToGradebook label, .checkboxGroupUsePassPercentage label {
+    border-top:none;
+}
+
+.checkboxGroupSendScoreToGradebook label, .checkboxGroupUsePassPercentage label {
+    padding-left:1.5rem;
+}
+
+
+.jobAid button {
+    float: right;
+    border: none;
+    font-size: 13px;
+}
+
+.optional {
+    font-style: italic;
+    text-transform: none;
+    font-size:11px;
+ }
+
+span.settingsInstructions {
+    font-style: italic;
+    text-transform: none;
+    font-size:11px;
+ }
+
+.displayWithin{
+    text-transform: none;
+    font-size:11px;
+    font-style: italic;
+}
+
+

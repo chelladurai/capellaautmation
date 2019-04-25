@@ -1,0 +1,1 @@
+//*[@id="courseResourceModalContentWrapper"]/div/div/div/div[2]/div[2]/div/div[2]/div/a[1]
